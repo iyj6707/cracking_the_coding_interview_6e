@@ -27,8 +27,7 @@ fn check_unique_without_data_structure(word: &str) -> bool {
 
 #[cfg(test)]
 mod tests {
-    use crate::check_unique_with_data_structure;
-    use crate::check_unique_without_data_structure;
+    use super::*;
 
     #[test]
     fn test_with_data_structure() {
